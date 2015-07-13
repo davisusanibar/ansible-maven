@@ -1,10 +1,10 @@
 ---
 # Maven major version number
-maven_version_major: '3'
+maven_version_major: "{{mvn_version_major}}"
 # Maven minor version number
-maven_version_minor: '2'
+maven_version_minor: "{{mvn_version_minor}}"
 # Maven patch version number
-maven_version_patch: '1'
+maven_version_patch: "{{mvn_version_patch}}"
 
 # Mirror where to dowload Maven redistributable package from
 maven_mirror: "http://mirror.ox.ac.uk/sites/rsync.apache.org/maven"
